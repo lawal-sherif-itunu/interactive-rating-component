@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  /* font-family: 'Outfit', sans-serif; */
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 85%;
+  max-width: 375px;
+  align-items: center;
+  justify-self: center;
+  /* margin-inline: auto; */
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+  /* margin-bottom: 2rem; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(25, 97%, 53%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(217, 12%, 63%);
+}
+
+.star {
+  border-radius: 50%;
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 11%, 25%);
+  color: white;
+  font-size: 24px;
+  margin-block: 1rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-block: 1rem;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+
+.buttons button {
+  border-radius: 50%;
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 11%, 25%);
+  color: hsl(217, 12%, 63%);
+  font-size: 24px;
+  margin-block: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.buttons button:active,
+.buttons button::after,
+button#submit {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.buttons button:hover,
+button#submit:hover {
+  background-color: white;
+}
+
+#submit {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  border: none;
+}
+
+.container-two {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+img.illustration {
+  margin-inline: auto;
+  display: block;
+  margin-block: 1.5rem;
+}
+
+p.rating {
+  text-align: center;
+  background-color: hsl(214, 11%, 25%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.3rem;
+  border-radius: 1rem;
+  display: inline-block;
+  padding-inline: 1rem;
+  margin-block: 1.5rem;
+}
+
+h2 {
+  color: white;
+}
+
+.container-two p {
+  text-align: center;
+}
